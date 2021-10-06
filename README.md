@@ -1,13 +1,13 @@
 # ResearchNotes-Demo
 Research Notes &amp; demo
 
-【概述】
+A.概述。
 
 本项目为一个学习研究过程的调试记录项目。
 
-【子项目介绍】
+B.子项目介绍。
 
-1)Lib.Harmony简介。
+【Lib.Harmony简介】
 
 Lib.Harmony - 一个用于在运行时修补、替换和装饰 .NET 方法的库。它允许不修改原先代码方法，以少数基于反射的声名，注解方式实现修改原有功能。
 
@@ -23,3 +23,8 @@ Lib.Harmony 适用于所有编译为CIL（微软的中间字节码语言）的�
 
 4）Getter/Setter、虚/ 非虚 方法、 静态 方法。
 
+【CallContext】
+
+一个实现单线程/多线程下代码调用链中传递数据的处理类: CallContext。   
+
+其中.net framework中自带 System.Runtime.Remoting.Messaging.CallContext,  而在.net core中需要自行实现（详见: ConfigLab.CallContext下的CallContext)
