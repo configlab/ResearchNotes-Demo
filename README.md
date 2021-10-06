@@ -23,8 +23,12 @@ Lib.Harmony 适用于所有编译为CIL（微软的中间字节码语言）的�
 
 4）Getter/Setter、虚/ 非虚 方法、 静态 方法。
 
+更多详细分析请参考个人博客：http://config.net.cn/opensource/dataformat/a133596e-9d5a-43ef-9012-1e2a19c00e33-p1.html
+
 【CallContext】
 
 一个实现单线程/多线程下代码调用链中传递数据的处理类: CallContext。   
 
 其中.net framework中自带 System.Runtime.Remoting.Messaging.CallContext,  而在.net core中需要自行实现（详见: ConfigLab.CallContext下的CallContext)
+
+更多详细分析请参考个人博客：http://config.net.cn/opensource/dataformat/4165b5bd-41b4-4c50-b3d3-6fb8d9b33c16-p1.html
