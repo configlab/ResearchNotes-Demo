@@ -5,6 +5,12 @@ using System.Reflection;
 
 namespace CoreLab.LibHarmony
 {
+    /// <summary>
+	/// author: http://config.net.cn
+	/// project site:https://github.com/configlab/ResearchNotes-Demo
+	/// description:inject method before or after target method
+	/// create date: 2021-10-6
+	/// </summary>
     class Program
     {
         static void Main(string[] args)
