@@ -1,5 +1,14 @@
 # ResearchNotes-Demo
 Research Notes &amp; demo
+
+【概述】
+
+本项目为一个学习研究过程的调试记录项目。
+
+【子项目介绍】
+
+1)Lib.Harmony简介。
+
 Lib.Harmony - 一个用于在运行时修补、替换和装饰 .NET 方法的库。它允许不修改原先代码方法，以少数基于反射的声名，注解方式实现修改原有功能。
 
 Lib.Harmony 适用于所有编译为CIL（微软的中间字节码语言）的语言。
@@ -13,3 +22,4 @@ Lib.Harmony 适用于所有编译为CIL（微软的中间字节码语言）的�
 3)位置可以是执行前（Prefix）、执行后（Postfix）和终结嚣（Finalizer），也可以更详细的手动修改IL（Transpiler）。
 
 4）Getter/Setter、虚/ 非虚 方法、 静态 方法。
+
